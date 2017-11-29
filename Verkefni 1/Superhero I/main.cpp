@@ -28,6 +28,7 @@ int main()
       while(!fin.eof()){
         getline(fin, str);
         cout << str << endl;
+        cout << endl;
       }
     }
 

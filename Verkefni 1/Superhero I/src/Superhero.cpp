@@ -50,6 +50,10 @@ string Superhero::find_power(){
         pow = "None";
         return pow;
     }
+    else if(power == 'g'){
+        pow = "Giant";
+        return pow;
+    }
     else{
         pow = "Weakling";
         return pow;
