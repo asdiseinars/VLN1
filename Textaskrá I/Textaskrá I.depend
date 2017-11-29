@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1511874824 source:c:\users\asdis\desktop\pizzaparty\pizzaparty\verkefni 1\textaskrá i\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+
+1511875819 source:c:\users\asdis\desktop\verkefni 1\textaskrá i\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+

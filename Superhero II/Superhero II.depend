@@ -1,0 +1,13 @@
+# depslib dependency file v1.0
+1511971346 source:c:\users\asdis\desktop\verkefni 1\superhero ii\main.cpp
+	<iostream>
+	<fstream>
+	"Superhero2.h"
+
+1511970246 c:\users\asdis\desktop\verkefni 1\superhero ii\superhero2.h
+	<iostream>
+	<string>
+
+1511970913 source:c:\users\asdis\desktop\verkefni 1\superhero ii\superhero2.cpp
+	"Superhero2.h"
+
