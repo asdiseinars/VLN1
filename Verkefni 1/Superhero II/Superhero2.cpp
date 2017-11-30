@@ -1,15 +1,13 @@
 #include "Superhero2.h"
 
 Superhero2::Superhero2(){
-    char name[0];
+    string name = "";
     int age = 0;
     char power = 'n';
 }
 
-Superhero2::Superhero2(char* name, int age, char power){
-    for(int i = 0; i < 20; i++) {
-        this->name[i] = name[i];
-    }
+Superhero2::Superhero2(string name, int age, char power){
+    this->name = name;
 
     this->age = age;
     this->power = power;
@@ -22,7 +20,7 @@ char Superhero2::get_power(){
     return power;
 }
 
-void Superhero2::set_name(char* name){
+void Superhero2::set_name(string name){
      for (int i = 0; i < 20; i++) {
         this->name[i] = name[i];
     }
@@ -44,6 +42,10 @@ string Superhero2::find_power(){
     }
     else if(power == 'h'){
         pow = "Hacker";
+        return pow;
+    }
+    else if(power == 'g'){
+        pow = "Giant";
         return pow;
     }
     else if(power == 'n'){
@@ -68,6 +70,5 @@ istream& operator >> (istream& in, Superhero2& hero){
 
 ostream& operator << (ostream& out, Superhero2& hero){
     out << hero.name << " (" << hero.age << "): " << hero.find_power() << endl;
-    out << endl;
     return out;
 }

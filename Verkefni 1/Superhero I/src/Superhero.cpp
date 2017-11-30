@@ -1,12 +1,12 @@
 #include "Superhero.h"
 
 Superhero::Superhero(){
-    char name[0];
+    string name = "";
     int age = 0;
     char power = 'n';
 }
 
-Superhero::Superhero(char* name, int age, char power){
+Superhero::Superhero(string name, int age, char power){
     for(int i = 0; i < 20; i++) {
         this->name[i] = name[i];
     }
@@ -22,10 +22,8 @@ char Superhero::get_power(){
     return power;
 }
 
-void Superhero::set_name(char* name){
-     for (int i = 0; i < 20; i++) {
-        this->name[i] = name[i];
-    }
+void Superhero::set_name(string name){
+    this->name = name;
 }
 
 void Superhero::set_age(int age){

@@ -16,7 +16,6 @@ int main()
 
     Superhero2* heroes = new Superhero2[size];
 
-
     for(int i = 0; i < size; i++){
         cout << "Superhero" << endl;
         cin >> heroes[i];
@@ -27,10 +26,6 @@ int main()
     fout.close();
 
     Superhero2 hero2;
-
-    ifstream fin;
-    fin.open("binary_file_superhero.dat", ios::binary);
-
 
     ifstream fin;
     fin.open("binary_file_superhero.dat", ios::binary);

@@ -8,16 +8,16 @@ using namespace std;
 class Superhero2
 {
     private:
-        char name[20];
+        string name;
         int age;
         char power;
 
     public:
         Superhero2();
-        Superhero2(char* name, int age, char power);
+        Superhero2(string name, int age, char power);
         int get_age();
         char get_power();
-        void set_name(char* name);
+        void set_name(string name);
         void set_age(int age);
         void set_power(char power);
         string find_power();
