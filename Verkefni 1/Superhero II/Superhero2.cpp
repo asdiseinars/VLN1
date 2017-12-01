@@ -72,3 +72,4 @@ ostream& operator << (ostream& out, Superhero2& hero){
     out << hero.name << " (" << hero.age << "): " << hero.find_power() << endl;
     return out;
 }
+//hallo
