@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1512393495 source:c:\users\einarbi\desktop\vln1\verkefni 2\verkefni2\main.cpp
+	<iostream>
+
+1512393665 source:c:\users\einarbi\desktop\vln1\verkefni 2\verkefni2\model\employee.cpp
+	"Employee.h"
+
+1512393540 c:\users\einarbi\desktop\vln1\verkefni 2\verkefni2\model\employee.h
+	<iostream>
+	<string>
+
