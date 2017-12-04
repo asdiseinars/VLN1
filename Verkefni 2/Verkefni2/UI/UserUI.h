@@ -1,13 +1,13 @@
 #ifndef USERUI_H
 #define USERUI_H
+#include <iostream>
+
+using namespace std;
 
 
-class UserUI
+namespace UserUI
 {
-    public:
         void user_menu();
-
-    private:
 };
 
 #endif // USERUI_H
