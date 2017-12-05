@@ -10,11 +10,11 @@ class Employee
     public:
         Employee();
         Employee(string name, string ssn, double salary, int month, int year);
-        string get_name();
-        string get_ssn();
-        double get_salary();
-        int get_month();
-        int get_year();
+        string get_name() const ;
+        string get_ssn() const ;
+        double get_salary() const ;
+        int get_month() const ;
+        int get_year() const ;
         void set_name(string name);
         void set_ssn(string ssn);
         void set_salary(double salary);

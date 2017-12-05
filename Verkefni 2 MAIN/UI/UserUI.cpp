@@ -14,17 +14,13 @@ void UserUI::user_menu() {
         char input;
         cin >> input;
 
+        validate_user_input(input);
+
         if (input == '1') {
             cout << "Add salary record" << endl << endl;
             EmployeeService add_employee;
             add_employee.addEmployee(create_employee());
         }
-
-        /*void EmployeeService::addEmployee(const Employee& employee) {
-        EmployeeRepo employee_repo;
-        employee_repo.add_employee(employee);
-        //cout << employee << endl;*/
-
 
         else if (input == '2') {
             cout << "Get all salary records for a given SSN" << endl;
@@ -64,4 +60,32 @@ Employee UserUI::create_employee() {
     Employee employee(name, ssn, salary, month, year);
 
     return employee;
+}
+
+void UserUI::validate_user_input(char input) {
+    if (input == '1') {
+        try {
+            employee_services.addEmployee(create_employee());
+        }
+        catch (InvalidNameException) {
+            cout << "Invalid name! " << endl;
+            cout << endl;
+        }
+        /*catch (InvalidSSNException) {
+            cout << "Invaldi SSN! " << endl;
+            cout << endl;  komin hingağ ásdís
+        }*/
+    }
+
+    else if (input == '2') {
+
+    }
+
+    else if (input == '3') {
+
+    }
+
+    else if (input == '4') {
+
+    }
 }

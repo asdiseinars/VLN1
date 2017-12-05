@@ -3,6 +3,7 @@
 #include "Employee.h"
 #include "EmployeeService.h"
 #include "EmployeeRepo.h"
+#include "InvalidNameException.h"
 
 
 class EmployeeService
@@ -10,9 +11,10 @@ class EmployeeService
     public:
         EmployeeService();
         void addEmployee(const Employee& employee);
-
+        bool isValidName(const Employee& employee);
 
     private:
+        EmployeeRepo employee_repo;
 };
 
 #endif // EMPLOYEESERVICE_H

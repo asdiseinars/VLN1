@@ -3,14 +3,14 @@
 	<iostream>
 	"UserUI.h"
 
-1512479635 source:c:\users\asdis\desktop\vln1\verkefni 2 main\models\employee.cpp
+1512486164 source:c:\users\asdis\desktop\vln1\verkefni 2 main\models\employee.cpp
 	"Employee.h"
 
-1512479635 c:\users\asdis\desktop\vln1\verkefni 2 main\models\employee.h
+1512486189 c:\users\asdis\desktop\vln1\verkefni 2 main\models\employee.h
 	<iostream>
 	<string>
 
-1512481704 source:c:\users\asdis\desktop\vln1\verkefni 2 main\repositories\employeerepo.cpp
+1512484311 source:c:\users\asdis\desktop\vln1\verkefni 2 main\repositories\employeerepo.cpp
 	"EmployeeRepo.h"
 
 1512480897 c:\users\asdis\desktop\vln1\verkefni 2 main\repositories\employeerepo.h
@@ -19,21 +19,23 @@
 	"Employee.h"
 	<fstream>
 
-1512481609 source:c:\users\asdis\desktop\vln1\verkefni 2 main\services\employeeservice.cpp
+1512486432 source:c:\users\asdis\desktop\vln1\verkefni 2 main\services\employeeservice.cpp
 	"EmployeeService.h"
 
-1512482230 c:\users\asdis\desktop\vln1\verkefni 2 main\services\employeeservice.h
+1512486748 c:\users\asdis\desktop\vln1\verkefni 2 main\services\employeeservice.h
 	"Employee.h"
 	"EmployeeService.h"
 	"EmployeeRepo.h"
+	"InvalidNameException.h"
 
-1512481533 source:c:\users\asdis\desktop\vln1\verkefni 2 main\ui\userui.cpp
+1512487488 source:c:\users\asdis\desktop\vln1\verkefni 2 main\ui\userui.cpp
 	"UserUI.h"
 
-1512482230 c:\users\asdis\desktop\vln1\verkefni 2 main\ui\userui.h
+1512487147 c:\users\asdis\desktop\vln1\verkefni 2 main\ui\userui.h
 	"Employee.h"
 	"EmployeeService.h"
 	<iostream>
+	"InvalidNameException.h"
 
 1512479882 source:c:\users\asdis\desktop\vln1\verkefni 2 main\services\userservice.cpp
 	"UserService.h"
@@ -80,4 +82,9 @@
 
 1512483382 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\repositories\employeerepo.cpp
 	"EmployeeRepo.h"
+
+1512484311 source:c:\users\asdis\desktop\vln1\verkefni 2 main\exceptions\invalidnameexception.cpp
+	"InvalidNameException.h"
+
+1512483998 c:\users\asdis\desktop\vln1\verkefni 2 main\exceptions\invalidnameexception.h
 

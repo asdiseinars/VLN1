@@ -13,23 +13,23 @@ Employee::Employee(string name, string ssn, double salary, int month, int year) 
     this->year = year;
 }
 
-string Employee::get_name() {
+string Employee::get_name() const {
     return name;
 }
 
-string Employee::get_ssn() {
+string Employee::get_ssn() const {
     return ssn;
 }
 
-double Employee::get_salary() {
+double Employee::get_salary() const {
     return salary;
 }
 
-int Employee::get_month() {
+int Employee::get_month() const {
     return month;
 }
 
-int Employee::get_year() {
+int Employee::get_year() const {
     return year;
 }
 
