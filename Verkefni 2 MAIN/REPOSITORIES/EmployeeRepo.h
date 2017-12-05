@@ -1,6 +1,9 @@
 #ifndef EMPLOYEEREPO_H
 #define EMPLOYEEREPO_H
 #include "Employee.h"
+#include "EmployeeRepo.h"
+#include "Employee.h"
+#include <fstream>
 
 class EmployeeRepo
 {
