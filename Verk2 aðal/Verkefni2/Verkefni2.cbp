@@ -15,10 +15,6 @@
 					<Add option="-g" />
 					<Add directory="MODEL" />
 					<Add directory="UI" />
-<<<<<<< HEAD:Verk2 aðal/Verkefni2/Verkefni2.cbp
-					<Add directory="REPOSITORIES" />
-=======
->>>>>>> fc41b3c7fce63d0033131e365ba09c8f3592d1fb:Verkefni 2/Verkefni2/Verkefni2.cbp
 					<Add directory="SERVICES" />
 				</Compiler>
 			</Target>
@@ -31,10 +27,6 @@
 					<Add option="-O2" />
 					<Add directory="MODEL" />
 					<Add directory="UI" />
-<<<<<<< HEAD:Verk2 aðal/Verkefni2/Verkefni2.cbp
-					<Add directory="REPOSITORIES" />
-=======
->>>>>>> fc41b3c7fce63d0033131e365ba09c8f3592d1fb:Verkefni 2/Verkefni2/Verkefni2.cbp
 					<Add directory="SERVICES" />
 				</Compiler>
 				<Linker>
@@ -48,15 +40,11 @@
 		</Compiler>
 		<Unit filename="MODEL/Employee.cpp" />
 		<Unit filename="MODEL/Employee.h" />
-<<<<<<< HEAD:Verk2 aðal/Verkefni2/Verkefni2.cbp
-		<Unit filename="REPOSITORIES/EmployeeRepo.cpp" />
 		<Unit filename="REPOSITORIES/EmployeeRepo.h" />
 		<Unit filename="SERVICES/EmployeeService.cpp" />
 		<Unit filename="SERVICES/EmployeeService.h" />
-=======
 		<Unit filename="SERVICES/UserService.cpp" />
 		<Unit filename="SERVICES/UserService.h" />
->>>>>>> fc41b3c7fce63d0033131e365ba09c8f3592d1fb:Verkefni 2/Verkefni2/Verkefni2.cbp
 		<Unit filename="UI/UserUI.cpp" />
 		<Unit filename="UI/UserUI.h" />
 		<Unit filename="main.cpp" />
