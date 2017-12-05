@@ -10,28 +10,29 @@
 	<iostream>
 	<string>
 
-1512479356 source:c:\users\asdis\desktop\vln1\verkefni 2 main\repositories\employeerepo.cpp
+1512481704 source:c:\users\asdis\desktop\vln1\verkefni 2 main\repositories\employeerepo.cpp
+	"EmployeeRepo.h"
+
+1512480897 c:\users\asdis\desktop\vln1\verkefni 2 main\repositories\employeerepo.h
+	"Employee.h"
 	"EmployeeRepo.h"
 	"Employee.h"
 	<fstream>
 
-1512479338 c:\users\asdis\desktop\vln1\verkefni 2 main\repositories\employeerepo.h
-	"Employee.h"
-
-1512479635 source:c:\users\asdis\desktop\vln1\verkefni 2 main\services\employeeservice.cpp
+1512481609 source:c:\users\asdis\desktop\vln1\verkefni 2 main\services\employeeservice.cpp
 	"EmployeeService.h"
 
-1512478829 c:\users\asdis\desktop\vln1\verkefni 2 main\services\employeeservice.h
+1512482230 c:\users\asdis\desktop\vln1\verkefni 2 main\services\employeeservice.h
 	"Employee.h"
 	"EmployeeService.h"
 	"EmployeeRepo.h"
 
-1512478829 source:c:\users\asdis\desktop\vln1\verkefni 2 main\ui\userui.cpp
+1512481533 source:c:\users\asdis\desktop\vln1\verkefni 2 main\ui\userui.cpp
 	"UserUI.h"
 
-1512478829 c:\users\asdis\desktop\vln1\verkefni 2 main\ui\userui.h
+1512482230 c:\users\asdis\desktop\vln1\verkefni 2 main\ui\userui.h
 	"Employee.h"
-	<iostream>
+	"EmployeeService.h"
 	<iostream>
 
 1512479882 source:c:\users\asdis\desktop\vln1\verkefni 2 main\services\userservice.cpp

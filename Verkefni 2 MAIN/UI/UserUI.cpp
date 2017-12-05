@@ -1,6 +1,5 @@
 #include "UserUI.h"
 
-
 void UserUI::user_menu() {
     cout << "Welcome user, choose your preferred action: " << endl;
 
@@ -17,8 +16,15 @@ void UserUI::user_menu() {
 
         if (input == '1') {
             cout << "Add salary record" << endl << endl;
-
+            EmployeeService add_employee;
+            add_employee.addEmployee(create_employee());
         }
+
+        /*void EmployeeService::addEmployee(const Employee& employee) {
+        EmployeeRepo employee_repo;
+        employee_repo.add_employee(employee);
+        //cout << employee << endl;*/
+
 
         else if (input == '2') {
             cout << "Get all salary records for a given SSN" << endl;
