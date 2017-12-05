@@ -7,14 +7,24 @@
 
 using namespace std;
 
-namespace UserUI
+class UserUI
 {
-        void user_menu();
-        Employee create_employee();
+    public:
 
+        void user_menu();
+
+        Employee create_employee();
 
     private:
 
 };
 
 #endif // USERUI_H
+
+
+
+
+
+
+
+
