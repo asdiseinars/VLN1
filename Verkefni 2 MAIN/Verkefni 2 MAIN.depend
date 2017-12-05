@@ -1,0 +1,41 @@
+# depslib dependency file v1.0
+1512479714 source:c:\users\asdis\desktop\vln1\verkefni 2 main\main.cpp
+	<iostream>
+	"UserUI.h"
+
+1512479635 source:c:\users\asdis\desktop\vln1\verkefni 2 main\models\employee.cpp
+	"Employee.h"
+
+1512479635 c:\users\asdis\desktop\vln1\verkefni 2 main\models\employee.h
+	<iostream>
+	<string>
+
+1512479356 source:c:\users\asdis\desktop\vln1\verkefni 2 main\repositories\employeerepo.cpp
+	"EmployeeRepo.h"
+	"Employee.h"
+	<fstream>
+
+1512479338 c:\users\asdis\desktop\vln1\verkefni 2 main\repositories\employeerepo.h
+	"Employee.h"
+
+1512479635 source:c:\users\asdis\desktop\vln1\verkefni 2 main\services\employeeservice.cpp
+	"EmployeeService.h"
+
+1512478829 c:\users\asdis\desktop\vln1\verkefni 2 main\services\employeeservice.h
+	"Employee.h"
+	"EmployeeService.h"
+	"EmployeeRepo.h"
+
+1512478829 source:c:\users\asdis\desktop\vln1\verkefni 2 main\ui\userui.cpp
+	"UserUI.h"
+
+1512478829 c:\users\asdis\desktop\vln1\verkefni 2 main\ui\userui.h
+	"Employee.h"
+	<iostream>
+	<iostream>
+
+1512479882 source:c:\users\asdis\desktop\vln1\verkefni 2 main\services\userservice.cpp
+	"UserService.h"
+
+1512479864 c:\users\asdis\desktop\vln1\verkefni 2 main\services\userservice.h
+

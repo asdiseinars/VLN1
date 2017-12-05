@@ -4,10 +4,6 @@
 #include<iostream>
 
 #include <iostream>
-<<<<<<< HEAD
-
-=======
->>>>>>> 271eb2846ca0362b40080363d6f4034449da1f77
 
 using namespace std;
 
@@ -16,10 +12,6 @@ class UserUI
     public:
 
         void user_menu();
-<<<<<<< HEAD
-=======
-        Employee create_employee();
->>>>>>> 271eb2846ca0362b40080363d6f4034449da1f77
 
         Employee create_employee();
 
@@ -28,3 +20,11 @@ class UserUI
 };
 
 #endif // USERUI_H
+
+
+
+
+
+
+
+
