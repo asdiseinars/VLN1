@@ -4,7 +4,6 @@
 
 using namespace std;
 
-
 namespace UserUI
 {
         void user_menu();

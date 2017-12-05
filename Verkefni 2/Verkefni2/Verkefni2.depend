@@ -16,13 +16,17 @@
 	<iostream>
 	<string>
 
-1512407255 source:c:\users\asdis\desktop\vln1\verkefni 2\verkefni2\main.cpp
+1512465364 source:c:\users\asdis\desktop\vln1\verkefni 2\verkefni2\main.cpp
 	<iostream>
+	"UserService.h"
+
+1512465228 c:\users\asdis\desktop\vln1\verkefni 2\verkefni2\ui\userui.h
+	<iostream>
+
+1512465072 source:c:\users\asdis\desktop\vln1\verkefni 2\verkefni2\ui\userui.cpp
 	"UserUI.h"
 
-1512407227 c:\users\asdis\desktop\vln1\verkefni 2\verkefni2\ui\userui.h
+1512465243 c:\users\asdis\desktop\vln1\verkefni 2\verkefni2\services\userservice.h
 	<iostream>
-
-1512407236 source:c:\users\asdis\desktop\vln1\verkefni 2\verkefni2\ui\userui.cpp
 	"UserUI.h"
 

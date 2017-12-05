@@ -1,11 +1,12 @@
 #include <iostream>
-#include "UserUI.h"
+#include "UserService.h"
 
-using namespace UserUI;
 using namespace std;
 
 int main()
 {
-    user_menu();
+    UserService user;
+    user.init();
+
     return 0;
 }

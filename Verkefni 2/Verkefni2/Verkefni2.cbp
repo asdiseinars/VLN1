@@ -15,6 +15,7 @@
 					<Add option="-g" />
 					<Add directory="MODEL" />
 					<Add directory="UI" />
+					<Add directory="SERVICES" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -26,6 +27,7 @@
 					<Add option="-O2" />
 					<Add directory="MODEL" />
 					<Add directory="UI" />
+					<Add directory="SERVICES" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -38,6 +40,8 @@
 		</Compiler>
 		<Unit filename="MODEL/Employee.cpp" />
 		<Unit filename="MODEL/Employee.h" />
+		<Unit filename="SERVICES/UserService.cpp" />
+		<Unit filename="SERVICES/UserService.h" />
 		<Unit filename="UI/UserUI.cpp" />
 		<Unit filename="UI/UserUI.h" />
 		<Unit filename="main.cpp" />
