@@ -5,7 +5,7 @@ Employee::Employee()
     //ctor
 }
 
-Employee::Employee(string name, string ssn, double salary, int month, int year) {
+Employee::Employee(string name, string ssn, float salary, int month, int year) {
     this->name = name;
     this->ssn = ssn;
     this->salary = salary;
@@ -21,7 +21,7 @@ string Employee::get_ssn() const {
     return ssn;
 }
 
-double Employee::get_salary() const {
+float Employee::get_salary() const {
     return salary;
 }
 
@@ -41,7 +41,7 @@ void Employee::set_ssn(string ssn) {
     this->ssn = ssn;
 }
 
-void Employee::set_salary(double salary) {
+void Employee::set_salary(float salary) {
     this->salary = salary;
 }
 

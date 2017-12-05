@@ -9,7 +9,7 @@ class EmployeeRepo
 {
     public:
         EmployeeRepo();
-        void add_employee(const Employee& employee);
+        void store_employee(const Employee& employee);
 
     private:
 };

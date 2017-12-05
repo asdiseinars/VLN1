@@ -46,7 +46,8 @@
 		</Compiler>
 		<Unit filename="EXCEPTIONS/InvalidNameException.cpp" />
 		<Unit filename="EXCEPTIONS/InvalidNameException.h" />
-		<Unit filename="EXEPTIONS/InvalidSSNException.cpp" />
+		<Unit filename="EXCEPTIONS/InvalidSSNException.cpp" />
+		<Unit filename="EXCEPTIONS/InvalidSSNException.h" />
 		<Unit filename="EXEPTIONS/InvalidSSNException.h" />
 		<Unit filename="MODELS/Employee.cpp" />
 		<Unit filename="MODELS/Employee.h" />
