@@ -8,7 +8,6 @@ Superhero2::Superhero2(){
 
 Superhero2::Superhero2(string name, int age, char power){
     this->name = name;
-
     this->age = age;
     this->power = power;
 }
