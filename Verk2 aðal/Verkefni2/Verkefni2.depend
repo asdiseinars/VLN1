@@ -1,0 +1,35 @@
+# depslib dependency file v1.0
+1512400691 source:c:\users\einarbi\desktop\vln1\verkefni 2\verkefni2\main.cpp
+	<iostream>
+	"UserUI.h"
+
+1512476586 source:c:\users\einarbi\desktop\vln1\verkefni 2\verkefni2\model\employee.cpp
+	"Employee.h"
+
+1512476586 c:\users\einarbi\desktop\vln1\verkefni 2\verkefni2\model\employee.h
+	<iostream>
+	<string>
+
+1512398680 source:c:\users\einarbi\desktop\vln1\verkefni 2\verkefni2\ui\userui.cpp
+	"UserUI.h"
+
+1512476586 c:\users\einarbi\desktop\vln1\verkefni 2\verkefni2\ui\userui.h
+	"Employee.h"
+	<iostream>
+
+1512401034 source:c:\users\einarbi\desktop\vln1\verkefni 2\verkefni2\repositories\employeerepo.cpp
+	"EmployeeRepo.h"
+	"Employee.h"
+	<fstream>
+
+1512475787 c:\users\einarbi\desktop\vln1\verkefni 2\verkefni2\repositories\employeerepo.h
+	"Employee.h"
+
+1512476043 source:c:\users\einarbi\desktop\vln1\verkefni 2\verkefni2\services\employeeservice.cpp
+	"EmployeeService.h"
+
+1512475882 c:\users\einarbi\desktop\vln1\verkefni 2\verkefni2\services\employeeservice.h
+	"Employee.h"
+	"EmployeeService.h"
+	"EmployeeRepo.h"
+
