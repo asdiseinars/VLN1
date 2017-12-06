@@ -8,18 +8,17 @@ void UserUI::user_menu() {
         char input;
         cin >> input;
 
-        validate_user_input(input);
+        //validate_user_input(input);
 
         if (input == '1') {
             cout << "Add salary record" << endl;
             cout << "-----------------" << endl;
             validate_user_input(input);
-            EmployeeService add_new_employee; //Şetta er vitlaust
-            add_new_employee.add_employee(create_employee());
         }
 
         else if (input == '2') {
             cout << "Get all salary records for a given SSN" << endl;
+
         }
 
         else if (input =='3') {
@@ -70,6 +69,23 @@ void UserUI::validate_user_input(char input) {
         catch (InvalidSSNException) {
             system("cls");
             cout << "Invalid SSN! " << endl;
+            cout << endl;
+        }
+
+        catch (InvalidSalaryException) {
+            system("cls");
+            cout << "Invalid Salary! " << endl;
+            cout << endl;
+        }
+        catch (InvalidMonthException) {
+            system("cls");
+            cout << "Invalid Month! " << endl;
+            cout << endl;
+        }
+
+        catch (InvalidYearException) {
+            system("cls");
+            cout << "Invalid Year! " << endl;
             cout << endl;
         }
     }

@@ -19,3 +19,17 @@ void EmployeeRepo::store_employee(const Employee& employee) {
         ///throw error
     }
 }
+
+void EmployeeRepo::get_record_for_ssn (string ssn) {
+    set_ssn(ssn);
+    ifstream fin;
+
+    fin.open("employees.txt");
+    if (fin.is_open()) {
+        while (fin >> employee) {
+
+        }
+
+    }
+
+}

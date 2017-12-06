@@ -5,8 +5,11 @@ EmployeeService::EmployeeService()
 }
 
 void EmployeeService::add_employee(const Employee& employee) {
-    if(isValidName(employee)) {
-        employee_repo.store_employee(employee);
+    if(isValidName(employee) && isValidSNN(employee)
+        && isValidSalary(employee) && isValidMonth(employee)
+        && isValidYear(employee)) {
+
+            employee_repo.store_employee(employee);
     }
 }
 
@@ -26,18 +29,52 @@ bool EmployeeService::isValidName(const Employee& employee) {
 bool EmployeeService::isValidSNN(const Employee& employee) {
     string ssn = employee.get_ssn();
 
-    if(ssn.length() != 10){
+    if(ssn.size() != 10){
         throw InvalidSSNException();
     }
-    else if(ssn.length() == 10) {
+    else if(ssn.size() == 10) {
         for(unsigned int i = 0; i < ssn.size(); i++) {
-            if(isalpha(ssn[i])) {
+            if(!isdigit(ssn[i])) {
                 throw InvalidSSNException();
             }
         }
     }
-
     return true;
 }
+
+bool EmployeeService::isValidSalary(const Employee& employee) {
+    double salary = employee.get_salary();
+
+    if (salary < 0) {
+        throw InvalidSalaryException();
+    }
+
+    return true;
+
+    ///bæta við að tjékka hvort eru bókstafir
+}
+
+bool EmployeeService::isValidMonth (const Employee& employee) {
+    int month = employee.get_month();
+
+    if (month < 1 || month > 12) {
+        throw InvalidMonthException();
+    }
+    return true;
+}
+
+bool EmployeeService::isValidYear (const Employee& employee) {
+    int year = employee.get_year();
+
+    if (year != 2017) {
+        throw InvalidYearException();
+    }
+
+}
+
+
+
+
+
 
 

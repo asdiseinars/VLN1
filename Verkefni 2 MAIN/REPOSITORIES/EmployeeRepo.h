@@ -10,6 +10,7 @@ class EmployeeRepo
     public:
         EmployeeRepo();
         void store_employee(const Employee& employee);
+        void get_record_for_ssn (string ssn);
 
     private:
 };
