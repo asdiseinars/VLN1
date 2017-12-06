@@ -17,12 +17,13 @@ class Employee
         int get_year() const ;
         void set_name(string name);
         void set_ssn(string ssn);
-        void set_salary(float salary);
+        void set_salary(double salary);
         void set_month(int month);
         void set_year(int year);
         friend ostream& operator << (ostream& out, const Employee& employee);
         friend istream& operator >> (istream& in,Employee& employee);
         bool verbose;
+        double totalSalary;
 
     private:
         string name;

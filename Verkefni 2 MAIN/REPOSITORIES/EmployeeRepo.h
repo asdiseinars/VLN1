@@ -5,6 +5,7 @@
 #include "Employee.h"
 #include <fstream>
 #include <vector>
+#include <algorithm>
 
 class EmployeeRepo
 {
@@ -14,8 +15,7 @@ class EmployeeRepo
         vector<Employee> get_record_for_ssn (string ssn);
         vector<Employee> employees;
         double sum_of_salary(string ssn, int year);
-        string get_name_of_highest_salary(int year);
-
+        string getHeighestPaidEmloyee(int year);
 
     private:
         bool verbose;

@@ -2,7 +2,7 @@
 
 Employee::Employee()
 {
-    //ctor
+   totalSalary = 0;
 }
 
 Employee::Employee(string name, string ssn, double salary, int month, int year) {
@@ -41,7 +41,7 @@ void Employee::set_ssn(string ssn) {
     this->ssn = ssn;
 }
 
-void Employee::set_salary(float salary) {
+void Employee::set_salary(double salary) {
     this->salary = salary;
 }
 
@@ -58,6 +58,7 @@ ostream& operator << (ostream& out, const Employee& employee) {
     out << employee.name << endl;
     out << employee.ssn << endl;
     out << employee.salary << endl;
+    out << employee.totalSalary << endl;
     out << employee.month << endl;
     out << employee.year << endl;
 

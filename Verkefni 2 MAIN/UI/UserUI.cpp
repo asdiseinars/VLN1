@@ -49,6 +49,9 @@ void UserUI::user_menu() {
             int year;
             cout << "Year: ";
             cin >> year;
+
+            EmployeeRepo ep;
+            cout << ep.getHeighestPaidEmloyee(year) << endl;
         }
         else if (input == '5') {
             exit(0);

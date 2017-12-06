@@ -3,40 +3,46 @@
 	<iostream>
 	"UserUI.h"
 
-1512491986 source:c:\users\asdis\desktop\vln1\verkefni 2 main\models\employee.cpp
+1512582774 source:c:\users\asdis\desktop\vln1\verkefni 2 main\models\employee.cpp
 	"Employee.h"
 
-1512491978 c:\users\asdis\desktop\vln1\verkefni 2 main\models\employee.h
+1512582645 c:\users\asdis\desktop\vln1\verkefni 2 main\models\employee.h
 	<iostream>
 	<string>
 
-1512496991 source:c:\users\asdis\desktop\vln1\verkefni 2 main\repositories\employeerepo.cpp
+1512582505 source:c:\users\asdis\desktop\vln1\verkefni 2 main\repositories\employeerepo.cpp
 	"EmployeeRepo.h"
 
-1512496991 c:\users\asdis\desktop\vln1\verkefni 2 main\repositories\employeerepo.h
+1512582916 c:\users\asdis\desktop\vln1\verkefni 2 main\repositories\employeerepo.h
 	"Employee.h"
 	"EmployeeRepo.h"
 	"Employee.h"
 	<fstream>
+	<vector>
+	<algorithm>
 
-1512497667 source:c:\users\asdis\desktop\vln1\verkefni 2 main\services\employeeservice.cpp
+1512581722 source:c:\users\asdis\desktop\vln1\verkefni 2 main\services\employeeservice.cpp
 	"EmployeeService.h"
 
-1512497667 c:\users\asdis\desktop\vln1\verkefni 2 main\services\employeeservice.h
+1512581722 c:\users\asdis\desktop\vln1\verkefni 2 main\services\employeeservice.h
 	"Employee.h"
 	"EmployeeService.h"
 	"EmployeeRepo.h"
 	"InvalidNameException.h"
 	"InvalidSSNException.h"
+	"InvalidSalaryException.h"
+	"InvalidMonthException.h"
+	"InvalidYearException.h"
 
-1512497167 source:c:\users\asdis\desktop\vln1\verkefni 2 main\ui\userui.cpp
+1512582774 source:c:\users\asdis\desktop\vln1\verkefni 2 main\ui\userui.cpp
 	"UserUI.h"
 
-1512496451 c:\users\asdis\desktop\vln1\verkefni 2 main\ui\userui.h
+1512563487 c:\users\asdis\desktop\vln1\verkefni 2 main\ui\userui.h
 	<iostream>
 	<stdlib.h>
 	"Employee.h"
 	"EmployeeService.h"
+	"EmployeeRepo.h"
 	"InvalidNameException.h"
 	"InvalidSSNException.h"
 
@@ -134,4 +140,24 @@
 	"Staff.h"
 
 1512575402 c:\users\einarbi\desktop\vln1\verkefni 2 main\models\staff.h
+
+1512581722 c:\users\asdis\desktop\vln1\verkefni 2 main\exceptions\invalidsalaryexception.h
+
+1512581722 c:\users\asdis\desktop\vln1\verkefni 2 main\exceptions\invalidmonthexception.h
+
+1512581722 c:\users\asdis\desktop\vln1\verkefni 2 main\exceptions\invalidyearexception.h
+
+1512581722 source:c:\users\asdis\desktop\vln1\verkefni 2 main\exceptions\invalidmonthexception.cpp
+	"InvalidMonthException.h"
+
+1512581722 source:c:\users\asdis\desktop\vln1\verkefni 2 main\exceptions\invalidsalaryexception.cpp
+	"InvalidSalaryException.h"
+
+1512581722 source:c:\users\asdis\desktop\vln1\verkefni 2 main\exceptions\invalidyearexception.cpp
+	"InvalidYearException.h"
+
+1512581722 source:c:\users\asdis\desktop\vln1\verkefni 2 main\models\staff.cpp
+	"Staff.h"
+
+1512581722 c:\users\asdis\desktop\vln1\verkefni 2 main\models\staff.h
 
