@@ -4,6 +4,7 @@
 #include <stdlib.h>
 #include "Employee.h"
 #include "EmployeeService.h"
+#include "EmployeeRepo.h"
 #include "InvalidNameException.h"
 #include "InvalidSSNException.h"
 
