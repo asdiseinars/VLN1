@@ -18,15 +18,37 @@ void UserUI::user_menu() {
 
         else if (input == '2') {
             cout << "Get all salary records for a given SSN" << endl;
+            string ssn;
+            cin >> ssn;
 
+            EmployeeService es;
+            vector<Employee> emplo_list = es.getRecordForSsn(ssn);
+
+            for(unsigned int i = 0; i < emplo_list.size(); i++) {
+                cout << emplo_list.at(i) << endl;
+            }
         }
 
         else if (input =='3') {
             cout << "Get a total salary for a given year and a given SSN" << endl;
+            string ssn;
+            int year;
+            cout << "SSN: ";
+            cin >> ssn;
+            cout << "Year: ";
+            cin >> year;
+            cout << endl;
+
+            EmployeeService es;
+            double sum = es.sumOfSalary(ssn, year);
+            cout << "The total salary for " << ssn << " is " << sum << endl << endl;
         }
 
         else if (input == '4') {
             cout << "Get the name of the employee with the highest total salary for a given year" << endl;
+            int year;
+            cout << "Year: ";
+            cin >> year;
         }
         else if (input == '5') {
             exit(0);

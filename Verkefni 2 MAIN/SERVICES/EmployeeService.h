@@ -20,7 +20,8 @@ class EmployeeService
         bool isValidSalary(const Employee& employee);
         bool isValidMonth (const Employee& employee);
         bool isValidYear (const Employee& employee);
-
+        vector<Employee> getRecordForSsn(string ssn);
+        double sumOfSalary(string ssn, int year);
 
     private:
         EmployeeRepo employee_repo;

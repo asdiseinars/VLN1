@@ -69,7 +69,17 @@ bool EmployeeService::isValidYear (const Employee& employee) {
     if (year != 2017) {
         throw InvalidYearException();
     }
+    return true;
+}
 
+vector <Employee> EmployeeService::getRecordForSsn(string ssn) {
+    EmployeeRepo repo;
+    return repo.get_record_for_ssn(ssn);
+}
+
+double EmployeeService::sumOfSalary(string ssn, int year) {
+    EmployeeRepo repo;
+    return repo.sum_of_salary(ssn, year);
 }
 
 

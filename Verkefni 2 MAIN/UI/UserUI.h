@@ -17,7 +17,6 @@ class UserUI
         void validate_user_input(char input);
         void menu_text();
 
-
     private:
         EmployeeService employee_services;
         string name;
