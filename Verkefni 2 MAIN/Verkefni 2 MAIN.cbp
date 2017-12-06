@@ -56,6 +56,8 @@
 		<Unit filename="EXCEPTIONS/InvalidYearException.h" />
 		<Unit filename="MODELS/Employee.cpp" />
 		<Unit filename="MODELS/Employee.h" />
+		<Unit filename="MODELS/Staff.cpp" />
+		<Unit filename="MODELS/Staff.h" />
 		<Unit filename="REPOSITORIES/EmployeeRepo.cpp" />
 		<Unit filename="REPOSITORIES/EmployeeRepo.h" />
 		<Unit filename="SERVICES/EmployeeService.cpp" />

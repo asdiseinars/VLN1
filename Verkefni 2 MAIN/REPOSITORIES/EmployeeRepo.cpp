@@ -77,6 +77,10 @@ double EmployeeRepo::sum_of_salary(string ssn, int year) {
     return sum;
 }
 
+string EmployeeRepo::getHeighestPaidEmloyee(int year) {
+
+
+}
 
 
 
