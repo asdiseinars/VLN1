@@ -1,0 +1,6 @@
+#ifndef INVALIDNAMEEXCEPTION_H
+#define INVALIDNAMEEXCEPTION_H
+
+class InvalidNameException { };
+
+#endif // INVALIDNAMEEXCEPTION_H

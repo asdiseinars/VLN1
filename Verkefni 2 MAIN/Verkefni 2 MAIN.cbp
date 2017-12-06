@@ -17,6 +17,8 @@
 					<Add directory="SERVICES" />
 					<Add directory="UI" />
 					<Add directory="REPOSITORIES" />
+					<Add directory="EXCEPTIONS" />
+					<Add directory="EXEPTIONS" />
 				</Compiler>
 			</Target>
 			<Target title="Release">
@@ -30,6 +32,8 @@
 					<Add directory="SERVICES" />
 					<Add directory="UI" />
 					<Add directory="REPOSITORIES" />
+					<Add directory="EXCEPTIONS" />
+					<Add directory="EXEPTIONS" />
 				</Compiler>
 				<Linker>
 					<Add option="-s" />
@@ -40,6 +44,11 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="EXCEPTIONS/InvalidNameException.cpp" />
+		<Unit filename="EXCEPTIONS/InvalidNameException.h" />
+		<Unit filename="EXCEPTIONS/InvalidSSNException.cpp" />
+		<Unit filename="EXCEPTIONS/InvalidSSNException.h" />
+		<Unit filename="EXEPTIONS/InvalidSSNException.h" />
 		<Unit filename="MODELS/Employee.cpp" />
 		<Unit filename="MODELS/Employee.h" />
 		<Unit filename="REPOSITORIES/EmployeeRepo.cpp" />

@@ -5,7 +5,7 @@ EmployeeRepo::EmployeeRepo()
     //ctor
 }
 
-void EmployeeRepo::add_employee(const Employee& employee) {
+void EmployeeRepo::store_employee(const Employee& employee) {
 
     ofstream fout;
 
@@ -18,5 +18,4 @@ void EmployeeRepo::add_employee(const Employee& employee) {
     else {
         ///throw error
     }
-
 }
