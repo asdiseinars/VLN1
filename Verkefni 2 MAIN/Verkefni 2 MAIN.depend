@@ -49,30 +49,39 @@
 	<iostream>
 	"UserUI.h"
 
-1512482615 c:\users\einarbi\desktop\vln1\verkefni 2 main\ui\userui.h
+1512568378 c:\users\einarbi\desktop\vln1\verkefni 2 main\ui\userui.h
+	<iostream>
+	<stdlib.h>
 	"Employee.h"
 	"EmployeeService.h"
-	<iostream>
+	"InvalidNameException.h"
+	"InvalidSSNException.h"
 
-1512480101 c:\users\einarbi\desktop\vln1\verkefni 2 main\models\employee.h
+1512575231 c:\users\einarbi\desktop\vln1\verkefni 2 main\models\employee.h
 	<iostream>
 	<string>
 
-1512482615 c:\users\einarbi\desktop\vln1\verkefni 2 main\services\employeeservice.h
+1512570151 c:\users\einarbi\desktop\vln1\verkefni 2 main\services\employeeservice.h
 	"Employee.h"
 	"EmployeeService.h"
 	"EmployeeRepo.h"
+	"InvalidNameException.h"
+	"InvalidSSNException.h"
+	"InvalidSalaryException.h"
+	"InvalidMonthException.h"
+	"InvalidYearException.h"
 
-1512482615 c:\users\einarbi\desktop\vln1\verkefni 2 main\repositories\employeerepo.h
+1512575231 c:\users\einarbi\desktop\vln1\verkefni 2 main\repositories\employeerepo.h
 	"Employee.h"
 	"EmployeeRepo.h"
 	"Employee.h"
 	<fstream>
+	<vector>
 
-1512480101 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\models\employee.cpp
+1512569042 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\models\employee.cpp
 	"Employee.h"
 
-1512482615 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\services\employeeservice.cpp
+1512570151 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\services\employeeservice.cpp
 	"EmployeeService.h"
 
 1512480101 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\services\userservice.cpp
@@ -80,10 +89,10 @@
 
 1512480101 c:\users\einarbi\desktop\vln1\verkefni 2 main\services\userservice.h
 
-1512482615 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\ui\userui.cpp
+1512575231 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\ui\userui.cpp
 	"UserUI.h"
 
-1512483382 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\repositories\employeerepo.cpp
+1512575231 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\repositories\employeerepo.cpp
 	"EmployeeRepo.h"
 
 1512484311 source:c:\users\asdis\desktop\vln1\verkefni 2 main\exceptions\invalidnameexception.cpp
@@ -95,4 +104,34 @@
 	"InvalidSSNException.h"
 
 1512491458 c:\users\asdis\desktop\vln1\verkefni 2 main\exceptions\invalidssnexception.h
+
+1512553216 c:\users\einarbi\desktop\vln1\verkefni 2 main\exceptions\invalidnameexception.h
+
+1512553216 c:\users\einarbi\desktop\vln1\verkefni 2 main\exceptions\invalidssnexception.h
+
+1512553216 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\exceptions\invalidnameexception.cpp
+	"InvalidNameException.h"
+
+1512553216 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\exceptions\invalidssnexception.cpp
+	"InvalidSSNException.h"
+
+1512555602 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\exceptions\invalidsalaryexception.cpp
+	"InvalidSalaryException.h"
+
+1512555602 c:\users\einarbi\desktop\vln1\verkefni 2 main\exceptions\invalidsalaryexception.h
+
+1512556965 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\exceptions\invalidmonthexception.cpp
+	"InvalidMonthException.h"
+
+1512556965 c:\users\einarbi\desktop\vln1\verkefni 2 main\exceptions\invalidmonthexception.h
+
+1512557410 c:\users\einarbi\desktop\vln1\verkefni 2 main\exceptions\invalidyearexception.h
+
+1512557410 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\exceptions\invalidyearexception.cpp
+	"InvalidYearException.h"
+
+1512575402 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\models\staff.cpp
+	"Staff.h"
+
+1512575402 c:\users\einarbi\desktop\vln1\verkefni 2 main\models\staff.h
 

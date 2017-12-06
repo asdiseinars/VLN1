@@ -44,13 +44,20 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="EXCEPTIONS/InvalidMonthException.cpp" />
+		<Unit filename="EXCEPTIONS/InvalidMonthException.h" />
 		<Unit filename="EXCEPTIONS/InvalidNameException.cpp" />
 		<Unit filename="EXCEPTIONS/InvalidNameException.h" />
 		<Unit filename="EXCEPTIONS/InvalidSSNException.cpp" />
 		<Unit filename="EXCEPTIONS/InvalidSSNException.h" />
-		<Unit filename="EXEPTIONS/InvalidSSNException.h" />
+		<Unit filename="EXCEPTIONS/InvalidSalaryException.cpp" />
+		<Unit filename="EXCEPTIONS/InvalidSalaryException.h" />
+		<Unit filename="EXCEPTIONS/InvalidYearException.cpp" />
+		<Unit filename="EXCEPTIONS/InvalidYearException.h" />
 		<Unit filename="MODELS/Employee.cpp" />
 		<Unit filename="MODELS/Employee.h" />
+		<Unit filename="MODELS/Staff.cpp" />
+		<Unit filename="MODELS/Staff.h" />
 		<Unit filename="REPOSITORIES/EmployeeRepo.cpp" />
 		<Unit filename="REPOSITORIES/EmployeeRepo.h" />
 		<Unit filename="SERVICES/EmployeeService.cpp" />

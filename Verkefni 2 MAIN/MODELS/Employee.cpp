@@ -5,7 +5,7 @@ Employee::Employee()
     //ctor
 }
 
-Employee::Employee(string name, string ssn, float salary, int month, int year) {
+Employee::Employee(string name, string ssn, double salary, int month, int year) {
     this->name = name;
     this->ssn = ssn;
     this->salary = salary;
@@ -21,7 +21,7 @@ string Employee::get_ssn() const {
     return ssn;
 }
 
-float Employee::get_salary() const {
+double Employee::get_salary() const {
     return salary;
 }
 
@@ -65,15 +65,25 @@ ostream& operator << (ostream& out, const Employee& employee) {
 }
 
 istream& operator >> (istream& in, Employee& employee) {
-    cout << "Name: ";
+    if (employee.verbose) {
+            cout << "Name: ";
+    }
     in >> employee.name;
-    cout << "SSN: ";
+    if (employee.verbose) {
+            cout << "SSN: ";
+    }
     in >> employee.ssn;
-    cout << "Salary: ";
+    if (employee.verbose) {
+            cout << "Salary: ";
+    }
     in >> employee.salary;
-    cout << "Month: ";
+    if (employee.verbose) {
+            cout << "Month: ";
+    }
     in >> employee.month;
-    cout << "Year: ";
+    if (employee.verbose) {
+            cout << "Year: ";
+    }
     in >> employee.year;
 
     return in;
