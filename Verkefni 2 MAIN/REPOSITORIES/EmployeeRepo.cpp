@@ -32,8 +32,8 @@ vector<Employee> EmployeeRepo::get_record_for_ssn(string ssn) {
     while(!fin.eof()) {
         fin >> emplo;
         employees.push_back(emplo);
-
     }
+
     vector<Employee> employees_ssn;
 
     for(unsigned int i = 0; i < employees.size(); i++) {
@@ -74,10 +74,11 @@ double EmployeeRepo::sum_of_salary(string ssn, int year) {
     for (unsigned int i = 0; i < employees_ssn.size(); i++) {
         sum += employees_ssn[i].get_salary();
     }
+
     return sum;
 }
-
-/*string EmployeeRepo::getHeighestPaidEmloyee(int year) {
+/*
+string EmployeeRepo::getHeighestPaidEmloyee(int year) {
 
     Employee resultEmployee;
     vector<Employee> allEmployees;

@@ -21,9 +21,9 @@ class Employee
         void set_month(int month);
         void set_year(int year);
         friend ostream& operator << (ostream& out, const Employee& employee);
-        friend istream& operator >> (istream& in,Employee& employee);
+        friend istream& operator >> (istream& in, Employee& employee);
         bool verbose;
-        double totalSalary;
+       // double totalSalary;
 
     private:
         string name;

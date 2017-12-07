@@ -2,7 +2,7 @@
 
 Employee::Employee()
 {
-   totalSalary = 0;
+   //totalSalary = 0;
 }
 
 Employee::Employee(string name, string ssn, double salary, int month, int year) {
@@ -58,7 +58,6 @@ ostream& operator << (ostream& out, const Employee& employee) {
     out << employee.name << endl;
     out << employee.ssn << endl;
     out << employee.salary << endl;
-    out << employee.totalSalary << endl;
     out << employee.month << endl;
     out << employee.year << endl;
 

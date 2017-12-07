@@ -55,7 +55,7 @@ void UserUI::user_menu() {
         }
 
         else if (input == '5') {
-            //exit(0);
+            exit(0);
         }
 
         else {
