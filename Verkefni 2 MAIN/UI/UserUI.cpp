@@ -45,16 +45,17 @@ void UserUI::user_menu() {
         }
 
         else if (input == '4') {
-            cout << "Get the name of the employee with the highest total salary for a given year" << endl;
+            /*cout << "Get the name of the employee with the highest total salary for a given year" << endl;
             int year;
             cout << "Year: ";
             cin >> year;
 
             EmployeeRepo ep;
-            cout << ep.getHeighestPaidEmloyee(year) << endl;
+            cout << ep.getHeighestPaidEmloyee(year) << endl;*/
         }
+
         else if (input == '5') {
-            exit(0);
+            //exit(0);
         }
 
         else {

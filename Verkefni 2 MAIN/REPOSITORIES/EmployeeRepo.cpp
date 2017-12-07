@@ -77,7 +77,7 @@ double EmployeeRepo::sum_of_salary(string ssn, int year) {
     return sum;
 }
 
-string EmployeeRepo::getHeighestPaidEmloyee(int year) {
+/*string EmployeeRepo::getHeighestPaidEmloyee(int year) {
 
     Employee resultEmployee;
     vector<Employee> allEmployees;
@@ -118,6 +118,7 @@ string EmployeeRepo::getHeighestPaidEmloyee(int year) {
     return resultEmployee.get_name();
 
 }
+*/
 
 
 

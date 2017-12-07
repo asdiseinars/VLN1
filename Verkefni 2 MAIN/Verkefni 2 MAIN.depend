@@ -55,15 +55,16 @@
 	<iostream>
 	"UserUI.h"
 
-1512568378 c:\users\einarbi\desktop\vln1\verkefni 2 main\ui\userui.h
+1512633151 c:\users\einarbi\desktop\vln1\verkefni 2 main\ui\userui.h
 	<iostream>
 	<stdlib.h>
 	"Employee.h"
 	"EmployeeService.h"
+	"EmployeeRepo.h"
 	"InvalidNameException.h"
 	"InvalidSSNException.h"
 
-1512575231 c:\users\einarbi\desktop\vln1\verkefni 2 main\models\employee.h
+1512633151 c:\users\einarbi\desktop\vln1\verkefni 2 main\models\employee.h
 	<iostream>
 	<string>
 
@@ -77,14 +78,15 @@
 	"InvalidMonthException.h"
 	"InvalidYearException.h"
 
-1512575231 c:\users\einarbi\desktop\vln1\verkefni 2 main\repositories\employeerepo.h
+1512634833 c:\users\einarbi\desktop\vln1\verkefni 2 main\repositories\employeerepo.h
 	"Employee.h"
 	"EmployeeRepo.h"
 	"Employee.h"
 	<fstream>
 	<vector>
+	<algorithm>
 
-1512569042 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\models\employee.cpp
+1512633151 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\models\employee.cpp
 	"Employee.h"
 
 1512570151 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\services\employeeservice.cpp
@@ -95,10 +97,10 @@
 
 1512480101 c:\users\einarbi\desktop\vln1\verkefni 2 main\services\userservice.h
 
-1512575231 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\ui\userui.cpp
+1512634753 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\ui\userui.cpp
 	"UserUI.h"
 
-1512575231 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\repositories\employeerepo.cpp
+1512634100 source:c:\users\einarbi\desktop\vln1\verkefni 2 main\repositories\employeerepo.cpp
 	"EmployeeRepo.h"
 
 1512484311 source:c:\users\asdis\desktop\vln1\verkefni 2 main\exceptions\invalidnameexception.cpp
